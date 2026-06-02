@@ -7,15 +7,15 @@ import { ArrowRight, Phone, ChevronLeft, ChevronRight, CheckCircle } from 'lucid
 
 const slides = [
   {
-    image: 'https://images.unsplash.com/photo-1565008576549-57569a49371d?auto=format&fit=crop&w=1920&q=80',
+    image: '/images/hero/hero-1.jpg',
     badge: 'Industrial Engineering Excellence',
     headline: ['Engineering ', 'Reliable', ' Industrial Solutions'],
-    sub: 'Since 2001',
+    sub: 'Since 2001 · Ahmedabad, Gujarat',
     desc: 'Electrical, Mechanical & Material Handling Engineering Solutions for Industrial Excellence — from panel manufacturing to complete turnkey projects.',
     badges: ['CPRI Approved', '20+ Years Experience', 'Turnkey Solutions'],
   },
   {
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1920&q=80',
+    image: '/images/hero/hero-2.jpg',
     badge: 'CPRI Approved Manufacturer',
     headline: ['CPRI Approved ', 'Electrical Panel', ' Manufacturer'],
     sub: 'MCC · PCC · VCB · ACB',
@@ -23,7 +23,7 @@ const slides = [
     badges: ['IS Standard', 'Factory Tested', 'Custom Panels'],
   },
   {
-    image: 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=1920&q=80',
+    image: '/images/hero/hero-3.jpg',
     badge: 'End-to-End Execution',
     headline: ['Complete ', 'Turnkey', ' Electrical Projects'],
     sub: 'Design · Supply · Install · Commission',
@@ -31,12 +31,12 @@ const slides = [
     badges: ['HT / LT Systems', 'Transformers', 'Commissioning'],
   },
   {
-    image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1920&q=80',
-    badge: 'Material & Coal Handling',
-    headline: ['Bulk Material ', 'Handling', ' & Coal Plants'],
-    sub: 'Conveyors · Stackers · CHP',
-    desc: 'Design, manufacture, erection and O&M of complete material handling and coal handling plant systems for power and cement industries.',
-    badges: ['Belt Conveyors', 'Coal Handling', 'Dust Control'],
+    image: '/images/hero/hero-4.jpg',
+    badge: 'Safety First · India\'s Trusted Partner',
+    headline: ['Industrial ', 'Safety &', ' O&M Services'],
+    sub: 'Operation · Maintenance · Support',
+    desc: 'Round-the-clock O&M support with certified technicians — preventive maintenance, breakdown response, and annual contracts across Indian industries.',
+    badges: ['24/7 Support', 'Certified Technicians', 'AMC Contracts'],
   },
 ];
 
