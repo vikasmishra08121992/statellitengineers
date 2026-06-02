@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { ChevronRight, CheckCircle2, ArrowRight, Phone, Mail } from 'lucide-react';
 import type { Metadata } from 'next';
-import { services } from '@/components/Services';
+import { services } from '@/data/services';
 
 export async function generateStaticParams() {
   return services.map((s) => ({ slug: s.slug }));
