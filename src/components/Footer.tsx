@@ -1,16 +1,6 @@
 import Link from 'next/link';
 import { Phone, Mail, MapPin, Printer } from 'lucide-react';
-
-const services = [
-  'Electrical Panels',
-  'Sheet Metal Fabrication',
-  'Turnkey Electrical Projects',
-  'Material Handling Equipment',
-  'O&M Services',
-  'Coal Handling Plants',
-  'Dust Control Systems',
-  'Conveyor Belt Services',
-];
+import { services } from '@/data/services';
 
 const quickLinks = [
   { href: '/', label: 'Home' },
@@ -71,13 +61,13 @@ export default function Footer() {
             <h3 className="text-white font-bold text-sm uppercase tracking-wider mb-5">Our Services</h3>
             <ul className="space-y-2.5">
               {services.map((service) => (
-                <li key={service}>
+                <li key={service.slug}>
                   <Link
-                    href="/services"
+                    href={`/services/${service.slug}`}
                     className="text-gray-400 hover:text-[#5BAF47] text-sm transition-colors flex items-center gap-2"
                   >
                     <span className="w-1.5 h-1.5 bg-[#5BAF47] rounded-full"></span>
-                    {service}
+                    {service.title}
                   </Link>
                 </li>
               ))}

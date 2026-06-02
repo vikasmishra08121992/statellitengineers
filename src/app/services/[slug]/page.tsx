@@ -60,13 +60,14 @@ export default async function ServiceDetailPage({
             <span className="text-white font-medium">{service.title}</span>
           </nav>
 
-          <div className={`inline-flex items-center justify-center w-16 h-16 rounded-2xl ${service.bgColor} mb-6`}>
-            <Icon className={`w-8 h-8 ${service.iconColor}`} />
-          </div>
-
-          <div className="inline-flex items-center gap-2 text-[#5BAF47] text-sm font-semibold uppercase tracking-wider mb-3">
-            <span className="w-8 h-0.5 bg-[#5BAF47]"></span>
-            Our Services
+          <div className="flex items-center gap-4 mb-5">
+            <div className={`w-14 h-14 rounded-2xl ${service.bgColor} flex items-center justify-center shrink-0`}>
+              <Icon className={`w-7 h-7 ${service.iconColor}`} />
+            </div>
+            <div className="flex items-center gap-2 text-[#5BAF47] text-sm font-semibold uppercase tracking-wider">
+              <span className="w-8 h-0.5 bg-[#5BAF47]"></span>
+              Our Services
+            </div>
           </div>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white mb-5 leading-tight">
             {service.title}
